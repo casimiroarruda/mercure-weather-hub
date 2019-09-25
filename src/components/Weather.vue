@@ -54,7 +54,7 @@ export default {
     }
   },
   created () {
-    const h = new URL('http://hub.casimiro.tech/hub')
+    const h = new URL('https://mercure-weather-hub.azurewebsites.net/hub')
     h.searchParams.append('topic', 'http://hub.casimiro.tech/weather')
     const es = new EventSource(h)
     es.onmessage = e => this.updateWeather(JSON.parse(e.data))
