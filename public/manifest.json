@@ -1,6 +1,7 @@
 {
-  "name": "Mercure Weather Service",
+  "name": "Weather Service",
   "short_name": "mercure-weather-app",
+  "description": "Demo client for Mercure subscribing",
   "icons": [
     {
       "src": "./img/icons/weather-192.png",
@@ -16,5 +17,5 @@
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#FFFFFF",
-  "theme_color": "#369"
+  "theme_color": "#336699"
 }
