@@ -10,13 +10,7 @@
         <span class="font-weight-light mb-12">Weather Service</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        href="https://duodra.co"
-        target="_blank"
-        icon
-        >
-        <v-icon>open_in_new</v-icon>
-      </v-btn>
+      &nbsp;
     </v-app-bar>
 
     <v-content>
